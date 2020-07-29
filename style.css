@@ -1,0 +1,154 @@
+
+/* Estilos de inputs*/
+.pc-tab > input,
+.pc-tab section > div {
+	display: none;
+}
+
+/* Check de Tabs */
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2 {
+	display: block;
+}
+
+/* Caja de la Página */
+*, *:after. *:before {
+	box-sizing: border-box;
+}
+
+/* Fondo de la Página */
+body {
+	background-color: #dcf0f1;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Estilos del Título */
+h1 {
+	text-align: center;
+	font-size: 60px;
+	color: #14335e;
+	letter-spacing: 0.1px;
+}
+
+/* Anchura del Tabs */
+.pc-tab {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+/* Margín del UL */
+.pc-tab ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos del Menú */
+.pc-tab ul li label {
+	float: left;
+	padding: 15px 25px;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	background-color: #eeeeee;
+	color: #444;
+}
+
+/* Cambios de Color del Menú */
+.pc-tab ul li label:hover {
+	background-color: #ddd;
+}
+
+/* Estilo Activo */
+pc-tab ul li label:active {
+	background-color: #fff;
+}
+
+/* Bordes de Label */
+.pc-tab ul li:not(:last-child) label {
+	border-right-width: 0;
+}
+
+/* Limpiar Section */
+.pc-tab section {
+	clear: both;
+}
+
+/* Estilos de Section */
+.pc-tab section div {
+	padding: 20px;
+	width: 93%;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	line-height: 1.5em
+	letter-spacing: 0.5px;
+	color: #444;
+}
+
+/* Estilos del Contenido Section */
+.pc-tab section div h2 {
+	margin: 0;
+	letter-spacing: 1px;
+	color: #34495e;
+	text-align: center;
+}
+
+/* Color del Check */
+#tab1:checked ~ nav .tab1 label,
+#tab2:checked ~ nav .tab2 label {
+	background-color: #fff;
+	color: #111;
+	position: relative;
+}
+
+/* Cambios de Color Check */
+#tab1:checked ~ nav .tab1 label:after,
+#tab2:checked ~ nav .tab2 label:after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background-color: #fff;
+	left: 0;
+	bottom: -3px;
+}
+
+/* estilos del Link */
+.pc-tab a {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #14335e;
+	color: #fff;
+	width: auto;
+	border-radius: 4px 4px 4px 4px;
+	opacity: 0.9;
+}
+
+/* Cambios del Link */
+.pc-tab a:hover {
+	background-color: #3881aa;
+	display: inline-block;
+	opacity: 1;
+	width: auto;
+}
+
+/* Contenedor de la Imagen */
+.tab-img div {
+	align-content: center;
+	margin: 0 auto;
+	display: flex;
+	width: 50%
+}
+
+/* Estilos de la Imagen */
+.tab-img img {
+	height: 20vh;
+	width: 40%;
+	display: block;
+	justify-content: center;
+	align-content: center;
+	margin-left: 29.5%;
+	padding-top: 40px;
+}

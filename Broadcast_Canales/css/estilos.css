@@ -1,0 +1,192 @@
+
+
+/* Estilos del Body */
+body {
+	/*background: url(../img/background.jpg);*/
+	background-color: rgb(240, 247, 248);
+}
+
+/* Estilos de la Cabecera */
+header {
+    background: linear-gradient(#fff,#55B2CF,#235E74,#3690A8);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-top: 135px;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+/* Estilos del Botton Enviar */
+.form {
+	border: 1px solid #ddd;
+	margin-top: 220px;
+	margin-left: 38.5%;
+	position: absolute;
+}
+
+/* Estilos de la Tabla */
+.table {
+	border-collapse: collapse;
+    background: #55B2CF;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+    position: absolute;
+    margin-top: 20%;
+    margin-left:20.8%; 
+    margin-right:50%;
+
+    height: 65px;
+    width: 50%;
+    
+}
+
+
+
+/* Estilos de Bordes */
+section {
+	margin-right: 5%;
+	margin-left: 4.3%;
+}
+
+/* Estilos de Encabezados de la Tabla */
+th {
+	background-color: #55B2CF;
+	height: 40px;
+	color: white;
+}
+
+/* Estilos de los Resultados */
+td {
+	background: white;
+	border-top: 1px solid #ddd;
+	padding: 15px;
+}
+
+/* Input Fecha */
+input {
+	height: 28px;
+}
+
+/* Estilos de la Imagen */
+img {
+  border-radius: 10px;
+  margin-left: 25.1%;
+  margin-top: -0.5%;
+  height: auto;
+  width: 49.7%;
+  position: absolute;
+  opacity: 0.9;
+}
+
+.pad-basic {
+	padding:.5%;	
+}
+
+.no-btm {
+	margin-bottom: 0%;
+}
+
+.btn-der {
+	text-align: right;
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 1024px){
+	/* Estilos del Body */
+	body {
+		/*background: url(../img/background.jpg);*/
+		background-color: rgb(240, 247, 248);
+	}
+
+	/* Estilos de la Cabecera */
+	header {
+		background: linear-gradient(#fff,#55B2CF,#235E74,#3690A8);
+		border-radius: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 0.8em;
+		margin-left: 25%;
+		margin-top: 95px;
+		position: absolute;
+		text-align: center;
+		width: 50%;
+	}
+
+	/* Estilos del Botton Enviar */
+	.form {
+		border: 1px solid #ddd;
+		margin-top: 170px;
+		margin-left: 31.5%;
+		position: absolute;
+	}
+
+	/* Estilos de la Tabla */
+	.table {
+		border-collapse: collapse;
+		table-layout: fixed;
+		background: #55B2CF;
+		border-radius: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+		overflow: hidden;
+		position: absolute;
+		margin-top: 23.5%;
+    	margin-left: 0%; 
+        margin-right:50%;
+		height: 65px;
+		width: 90%;
+	}
+
+	/* Estilos de Bordes */
+	section {
+		margin-right: 5%;
+		margin-left: 4.3%;
+	}
+
+	/* Estilos de Encabezados de la Tabla */
+	th {
+		background-color: #55B2CF;
+		height: 40px;
+		width: 20%;
+		color: white;
+	}
+
+	/* Estilos de los Resultados */
+	td {
+		background: white;
+		border-top: 1px solid #ddd;
+		font-size: 0.9em;
+		padding: 15px;
+	}
+
+	/* Input Fecha */
+	input {
+		height: 28px;
+	}
+
+	/* Estilos de la Imagen */
+	img {
+	border-radius: 10px;
+	margin-left: 25.1%;
+	margin-top: -0.5%;
+	height: auto;
+	width: 49.7%;
+	position: absolute;
+	opacity: 0.9;
+	}
+
+	.pad-basic {
+		padding:.5%;	
+	}
+
+	.no-btm {
+		margin-bottom: 0%;
+	}
+
+	.btn-der {
+		text-align: right;
+	}
+}
